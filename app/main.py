@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.ticker as mticker
 
-df = pd.read_csv('world_population.csv')  # Asegúrate de que la ruta del archivo sea correcta
+df = pd.read_csv('wapp/world_population.csv')  # Asegúrate de que la ruta del archivo sea correcta
 
 def millions_formatter(x, pos):
     return f'{x / 1e6}M'
